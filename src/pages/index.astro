@@ -8,9 +8,6 @@ const jobs = await getCollection('jobs');
 const jobsSortedByDate = jobs.sort(
 	(a, b) => Date.parse(a.data.pubDate) - Date.parse(b.data.pubDate)
 );
-
-console.log(jobs);
-console.log(jobsSortedByDate);
 ---
 
 <MainLayout title="jobs board home page">

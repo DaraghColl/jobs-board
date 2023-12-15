@@ -10,7 +10,10 @@ const { slug, data } = job;
 const { title, salary, location, pubDate, summary } = data;
 ---
 
-<a href={slug} class="rounded-md bg-white p-4 transition ease-in-out hover:-translate-y-[2px]">
+<a
+	href=`jobs/${slug}`
+	class="rounded-md bg-white p-4 transition ease-in-out hover:-translate-y-[2px]"
+>
 	<h3 class="text-2xl tracking-wider">
 		{job.data.title}
 	</h3>

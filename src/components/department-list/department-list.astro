@@ -6,9 +6,6 @@ interface Props {
 const { departments } = Astro.props;
 
 departments.unshift('all jobs');
-
-const path = Astro.url.pathname;
-const departmentInUrl = Astro.url.pathname.slice(Astro.url.pathname.lastIndexOf('/') + 1);
 ---
 
 <div class="my-10 flex flex-wrap gap-4">
@@ -16,13 +13,7 @@ const departmentInUrl = Astro.url.pathname.slice(Astro.url.pathname.lastIndexOf(
 		departments.map((department) => (
 			<a
 				href={department === 'all jobs' ? '/' : `/jobs/department/${department}`}
-				class={`
-					${
-						departmentInUrl === department || (departmentInUrl === '' && department === 'all jobs')
-							? 'bg-slate-400 text-white'
-							: 'text-slate-400'
-					}
-					 cursor-pointer rounded-md border-2 border-slate-400 p-2 text-center text-sm font-semibold tracking-wider`}
+				class="cursor-pointer rounded-md border-2 border-slate-500 p-2 text-center text-sm font-semibold tracking-wider"
 			>
 				{department}
 			</a>

@@ -7,7 +7,7 @@ const jobs = defineCollection({
 		location: z.string(),
 		pubDate: z.string(),
 		summary: z.string(),
-		department: z.enum(['engineering', 'sales', 'marketing'])
+		department: z.string()
 	})
 });
 

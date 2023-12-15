@@ -8,10 +8,25 @@ const jobs = await getCollection('jobs');
 const jobsSortedByDate = jobs.sort(
 	(a, b) => Date.parse(a.data.pubDate) - Date.parse(b.data.pubDate)
 );
+
+const departments = [...new Set(jobs.map((job) => job.data.department).flat())];
 ---
 
 <MainLayout title="jobs board home page">
 	<h1 class="mb-10 text-2xl font-semibold tracking-wide">Job Openings</h1>
+	<div class="my-10 flex gap-4">
+		{
+			departments.map((department) => (
+				<a
+					href={`/jobs/department/${department}`}
+					class="min-w-[4rem] cursor-pointer rounded-md bg-slate-400 p-2 text-center text-sm font-semibold tracking-wider text-white"
+				>
+					{department}
+				</a>
+			))
+		}
+	</div>
+
 	<div class="grid grid-cols-1 gap-10 md:grid-cols-1">
 		{jobsSortedByDate.map((job) => <JobCard job={job} />)}
 	</div>

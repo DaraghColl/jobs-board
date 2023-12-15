@@ -7,26 +7,32 @@ summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nec
 department: engineering
 ---
 
-Do you love crafting beautiful, functional UIs that sing in concert with Node.js? Do you thrive in fast-paced environments where innovation meets meticulous execution? Then we have the perfect challenge for you!
+Are you a Node.js wizard ready to build the future of our company?
 
-Join our passionate team as a Senior Front-End Developer and be the architect of exceptional user experiences. You'll work hand-in-hand with talented designers and engineers to build the next generation of our web applications, all powered by the magic of Node.js.
+We're looking for a passionate and experienced Senior Backend Developer to join our growing team and take ownership of our backend infrastructure. You'll play a key role in designing, developing, and maintaining our high-performance Node.js applications that power our exciting product.
 
 **What you will do:**
 
-- Design, develop, and implement pixel-perfect UIs across various platforms and devices. Think responsive, intuitive, and oh-so-delightful interfaces.
-- Own the front-end tech stack, with Node.js as your secret weapon. You'll leverage your mastery of frameworks like React, Next.js, or Vue.js to craft performant, scalable solutions.
-- Collaborate closely with backend developers to ensure seamless integration and a delightful user journey. Communication is key!
-- Champion best practices in code quality, maintainability, and testing. Clean code is happy code, and we want all our code to be dancing.
-- Stay ahead of the curve by exploring new technologies and trends in the ever-evolving front-end landscape. Curiosity is your fuel!
-  Mentor and guide junior developers, sharing your knowledge and passion for the craft. Be the code whisperer!
+- Architect, design, and build scalable and reliable backend APIs using Node.js and Express.js
+- Craft clean, maintainable, and efficient code in Node.js and JavaScript
+- Optimize existing codebase for performance and scalability
+- Integrate with various databases (e.g., MySQL, MongoDB) and APIs
+- Deploy and monitor applications in production environments (e.g., AWS, Azure)
+- Collaborate with frontend developers and other backend engineers to ensure seamless integration
+- Champion best practices for code quality, testing, and DevOps
+- Contribute to the technical decision-making process
 
 **You are a perfect fit if you:**
 
-- 5+ years of experience as a front-end developer, with a deep understanding of modern web development principles and best practices.
-- Solid expertise in Node.js and at least one popular front-end framework (React, Next.js, Vue.js, etc.). Bonus points for knowing them all!
-- Excellent communication and collaboration skills to bridge the gap between design, development, and other teams.
-- A keen eye for detail and a relentless pursuit of quality in everything you do. Pixels matter!
-- A strong passion for learning and staying ahead of the curve in the ever-changing world of web development. Curiosity is your driving force!
+- 5+ years of professional experience as a Backend Developer
+- Extensive expertise in Node.js and Express.js
+- Solid understanding of RESTful APIs and distributed systems
+- Experience with relational and NoSQL databases (e.g., MySQL, MongoDB)
+- Familiarity with containerization technologies like Docker and Kubernetes (a plus)
+- Experience with CI/CD pipelines (e.g., Jenkins, Travis CI)
+- Excellent written and verbal communication skills
+- Ability to work independently and as part of a team
+- Passion for learning and keeping up-to-date with new technologies
 
 **What we offer:**
 

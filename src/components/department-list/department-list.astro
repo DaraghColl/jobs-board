@@ -11,7 +11,7 @@ const path = Astro.url.pathname;
 const departmentInUrl = Astro.url.pathname.slice(Astro.url.pathname.lastIndexOf('/') + 1);
 ---
 
-<div class="my-10 flex gap-4">
+<div class="my-10 flex flex-wrap gap-4">
 	{
 		departments.map((department) => (
 			<a
@@ -22,7 +22,7 @@ const departmentInUrl = Astro.url.pathname.slice(Astro.url.pathname.lastIndexOf(
 							? 'bg-slate-400 text-white'
 							: 'text-slate-400'
 					}
-					min-w-[4rem] cursor-pointer rounded-md border-2 border-slate-400 p-2 text-center text-sm font-semibold tracking-wider`}
+					 cursor-pointer rounded-md border-2 border-slate-400 p-2 text-center text-sm font-semibold tracking-wider`}
 			>
 				{department}
 			</a>

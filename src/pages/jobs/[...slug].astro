@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from 'astro:content';
 import MainLayout from '../../layouts/main.astro';
 import Prose from '../../components/prose/prose.astro';
+import JobApply from '../../components/job-apply/job-apply.astro';
 
 export async function getStaticPaths() {
 	const jobs = await getCollection('jobs');
@@ -21,10 +22,10 @@ const { Content } = await job.render();
 ---
 
 <MainLayout title=`{your company} jobs - ${title}`>
-	<h3 class="text-2xl tracking-wider">
+	<h3 class="mb-5 text-3xl font-semibold tracking-wide">
 		{title}
 	</h3>
-	<div class="mt-5 flex gap-8 font-normal text-gray-800">
+	<div class="mt-5 flex gap-4 font-normal text-gray-800 md:gap-8">
 		<div class="flex items-center gap-2">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -84,4 +85,6 @@ const { Content } = await job.render();
 	<Prose>
 		<Content />
 	</Prose>
+
+	<JobApply jobReference=`${title}-${pubDate}` />
 </MainLayout>

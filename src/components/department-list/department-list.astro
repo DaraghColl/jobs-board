@@ -1,0 +1,20 @@
+---
+interface Props {
+	departments: string[];
+}
+
+const { departments } = Astro.props;
+---
+
+<div class="my-10 flex gap-4">
+	{
+		departments.map((department) => (
+			<a
+				href={`/jobs/department/${department}`}
+				class="min-w-[4rem] cursor-pointer rounded-md bg-slate-400 p-2 text-center text-sm font-semibold tracking-wider text-white"
+			>
+				{department}
+			</a>
+		))
+	}
+</div>

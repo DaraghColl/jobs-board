@@ -3,7 +3,7 @@ title: Back End Developer
 salary: 120,000
 location: remote
 pubDate: '2021-01-02'
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo necessitatibus asperiores minima neque suscipit et iusto distinctio dolorem quam rerum, aperiam mollitia veniam soluta labore commodi, repellendus cumque voluptate quos.
+summary: Are you a Node.js wizard ready to build the future of our company? We're looking for a passionate and experienced Senior Backend Developer to join our growing team and take ownership of our backend infrastructure. You'll play a key role in designing, developing, and maintaining our high-performance Node.js applications that power our exciting product.
 department: engineering
 ---
 

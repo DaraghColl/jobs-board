@@ -3,32 +3,34 @@ title: Head of Sales
 salary: 150,000
 location: remote
 pubDate: '2021-07-08'
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo necessitatibus asperiores minima neque suscipit et iusto distinctio dolorem quam rerum, aperiam mollitia veniam soluta labore commodi, repellendus cumque voluptate quos.
+summary: Do you thrive in the high-octane world of sales? Are you a born leader with an insatiable drive to exceed expectations? Then step into the spotlight as our Head of Sales and lead our team to record-breaking revenue!
 department: sales
 ---
 
-We are on the hunt for a Senior Frontend Developer who thrives in the React ecosystem and loves building beautiful, high-performing user interfaces. At [Company Name], we're passionate about [Company Mission], and we believe the user experience is key to achieving it. You'll play a pivotal role in crafting intuitive and engaging interfaces that drive user adoption and delight.
+Do you thrive in the high-octane world of sales? Are you a born leader with an insatiable drive to exceed expectations? Then step into the spotlight as our Head of Sales and lead our team to record-breaking revenue!
 
 **What you will do:**
 
-- Own the development of complex, interactive React components from scratch to deployment
-- Collaborate closely with designers and engineers to translate mockups into pixel-perfect reality
-- Optimize frontend performance for speed and responsiveness across devices
-- Champion best practices in code readability, maintainability, and testability
-- Contribute to the evolution of our component library and UI/UX standards
-- Stay up-to-date with the latest React trends and technologies
-- Help mentor and guide junior developers on the team
+- Develop and implement a data-driven sales strategy aligned with overall company goals.
+- Build and lead a motivated and results-oriented sales team.
+- Recruit, onboard, and train top sales talent.
+- Develop and implement effective sales processes and methodologies.
+- Manage and forecast sales pipeline and revenue.
+- Identify and pursue new market opportunities and strategic partnerships.
+- Negotiate and close deals with high-value clients.
+- Analyze sales data and provide actionable insights for continuous improvement.
+- Foster a collaborative and results-oriented culture within the sales team.
 
 **You are a perfect fit if you:**
 
-- Have 3+ years of experience building production-ready React applications
-- Possess a deep understanding of React core concepts and best practices (Hooks, Redux, etc.)
-- Are proficient in HTML, CSS (preprocessors a plus!), and modern JavaScript (ES6+)
-- Have experience with testing libraries like Jest and Cypress
-- Can write clean, maintainable, and documented code
-- Are a master of communication and collaboration
-- Have a passion for creating exceptional user experiences
-- Bonus points for experience with: TypeScript, GraphQL, UI/UX best practices
+- 7+ years of proven success in a leadership role within a high-growth sales organization.
+- A track record of consistently exceeding sales targets.
+- Strong understanding of B2B sales processes and methodologies.
+- Proven ability to build and motivate high-performing sales teams.
+- Excellent communication, negotiation, and presentation skills.
+- Deep understanding of your target market and competitive landscape.
+- Data-driven approach to decision making and problem-solving.
+- Bachelor's degree in a relevant field (preferred).
 
 **What we offer:**
 

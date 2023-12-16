@@ -3,36 +3,29 @@ title: Marketing Intern
 salary: 60,000
 location: remote
 pubDate: '2021-01-02'
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo necessitatibus asperiores minima neque suscipit et iusto distinctio dolorem quam rerum, aperiam mollitia veniam soluta labore commodi, repellendus cumque voluptate quos.
+summary: Are you a marketing mastermind? A visionary strategist with a Midas touch for brand storytelling? Do you thrive in the fast-paced world of digital campaigns and data-driven insights? Then step into the spotlight as our Head of Marketing and lead the charge to propel our brand to new heights.
 department: marketing
 ---
 
-Are you a Node.js wizard ready to build the future of our company?
-
-We're looking for a passionate and experienced Senior Backend Developer to join our growing team and take ownership of our backend infrastructure. You'll play a key role in designing, developing, and maintaining our high-performance Node.js applications that power our exciting product.
+Are you a marketing mastermind? A visionary strategist with a Midas touch for brand storytelling? Do you thrive in the fast-paced world of digital campaigns and data-driven insights? Then step into the spotlight as our Head of Marketing and lead the charge to propel our brand to new heights.
 
 **What you will do:**
 
-- Architect, design, and build scalable and reliable backend APIs using Node.js and Express.js
-- Craft clean, maintainable, and efficient code in Node.js and JavaScript
-- Optimize existing codebase for performance and scalability
-- Integrate with various databases (e.g., MySQL, MongoDB) and APIs
-- Deploy and monitor applications in production environments (e.g., AWS, Azure)
-- Collaborate with frontend developers and other backend engineers to ensure seamless integration
-- Champion best practices for code quality, testing, and DevOps
-- Contribute to the technical decision-making process
+- The architect of our marketing strategy: Develop and execute a comprehensive plan that drives brand awareness, lead generation, and customer engagement across all channels.
+- The maestro of multi-channel marketing: Own the magic of social media, content marketing, email campaigns, and paid advertising, ensuring seamless integration and maximum impact.
+- The data decoder: Turn numbers into narratives, using data analytics to measure, optimize, and refine our marketing efforts for continuous growth.
+- The creative catalyst: Foster a culture of innovation within your team, encouraging fresh ideas and pushing the boundaries of what's possible.
+- The budget guardian: Allocate resources wisely, ensuring every dollar spent fuels our marketing engine and delivers tangible results.
+- The champion of collaboration: Partner cross-functionally to ensure marketing aligns seamlessly with sales, product, and other departments.
 
 **You are a perfect fit if you:**
 
-- 5+ years of professional experience as a Backend Developer
-- Extensive expertise in Node.js and Express.js
-- Solid understanding of RESTful APIs and distributed systems
-- Experience with relational and NoSQL databases (e.g., MySQL, MongoDB)
-- Familiarity with containerization technologies like Docker and Kubernetes (a plus)
-- Experience with CI/CD pipelines (e.g., Jenkins, Travis CI)
-- Excellent written and verbal communication skills
-- Ability to work independently and as part of a team
-- Passion for learning and keeping up-to-date with new technologies
+- Proven track record of success: A minimum of 5 years of experience leading marketing teams in a fast-paced environment.
+- Strategic vision and execution prowess: A knack for translating complex goals into actionable plans and driving results.
+- Data-driven decision making: The ability to analyze marketing data and translate insights into actionable strategies.
+- Creative spark and storytelling magic: The power to craft compelling narratives that resonate with our target audience.
+- Leadership and team-building skills: You inspire and motivate others to achieve their best.
+- Excellent communication and interpersonal skills: You connect with stakeholders across all levels, building trust and fostering collaboration.
 
 **What we offer:**
 

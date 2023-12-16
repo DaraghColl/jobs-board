@@ -30,14 +30,14 @@ departments.unshift('all jobs');
 
 		departmentItems.forEach((departmentItem) => {
 			if (!departmentItem) return;
-			departmentItem.classList.remove('border-blue-500');
-			departmentItem.classList.remove('dark:border-blue-500');
+			departmentItem.classList.remove('border-blue-600');
+			departmentItem.classList.remove('dark:border-blue-600');
 			if (
 				departmentItem.innerHTML.trim() === departmentUrl ||
 				(departmentItem.innerHTML.trim() === 'all jobs' && departmentUrl === '')
 			) {
-				departmentItem.classList.add('border-blue-500');
-				departmentItem.classList.add('dark:border-blue-500');
+				departmentItem.classList.add('border-blue-600');
+				departmentItem.classList.add('dark:border-blue-600');
 			}
 		});
 	});

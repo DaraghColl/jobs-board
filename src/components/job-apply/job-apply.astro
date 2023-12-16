@@ -7,7 +7,7 @@ const { jobReference } = Astro.props;
 ---
 
 <div class="mx-auto my-20 max-w-sm text-slate-800 dark:text-white">
-	<h3 class="mb-5 text-2xl font-semibold tracking-wide">Apply for this role</h3>
+	<h2 class="mb-5 text-2xl font-semibold tracking-wide">Apply for this role</h2>
 	<form class="flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
 			<label for="name" class="text-sm">name</label>
@@ -26,7 +26,7 @@ const { jobReference } = Astro.props;
 			<input
 				type="email"
 				name="email"
-				id="name"
+				id="email"
 				required
 				autocomplete="off"
 				class="rounded-md border-2 bg-white p-2 focus:outline-none dark:bg-slate-900"
@@ -39,7 +39,7 @@ const { jobReference } = Astro.props;
 				type="file"
 				name="file-input"
 				id="file-input"
-				class="block w-full rounded-md border-2 bg-white text-sm shadow-sm file:me-4 file:cursor-pointer file:border-0 file:bg-blue-500 file:px-4 file:py-3 file:text-white dark:bg-slate-900"
+				class="block w-full rounded-md border-2 bg-white text-sm shadow-sm file:me-4 file:cursor-pointer file:border-0 file:bg-blue-600 file:px-4 file:py-3 file:text-white dark:bg-slate-900"
 			/>
 		</div>
 
@@ -51,5 +51,5 @@ const { jobReference } = Astro.props;
 			value={jobReference}
 		/>
 	</form>
-	<button id="button_apply" class="mt-5 rounded-md bg-blue-500 px-4 py-2 text-white">Apply</button>
+	<button id="button_apply" class="mt-5 rounded-md bg-blue-600 px-4 py-2 text-white">Apply</button>
 </div>

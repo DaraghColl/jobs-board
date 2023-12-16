@@ -32,12 +32,15 @@
 
 	<style></style>
 
-	<script is:inline>
+	<script>
 		let theme = 'light';
 
 		const handleThemeChange = () => {
 			const sunIcon = document.getElementById('theme_toggle_sun');
 			const moonIcon = document.getElementById('theme_toggle_moon');
+
+			if (!sunIcon || !moonIcon) return;
+
 			if (theme === 'light') {
 				document.documentElement.classList.add('dark');
 				moonIcon.classList.add('hidden');
@@ -55,6 +58,8 @@
 			const sunIcon = document.getElementById('theme_toggle_sun');
 			const moonIcon = document.getElementById('theme_toggle_moon');
 
+			if (!sunIcon || !moonIcon) return;
+
 			if (theme === 'dark') {
 				document.documentElement.classList.add('dark');
 				moonIcon.classList.add('hidden');
@@ -67,7 +72,12 @@
 		};
 
 		document.addEventListener('astro:page-load', () => {
-			document.getElementById('theme_toggle').addEventListener('click', handleThemeChange);
+			const themeToggle = document.getElementById('theme_toggle');
+
+			if (!themeToggle) return;
+
+			themeToggle.addEventListener('click', handleThemeChange);
+
 			handleInitTheme();
 		});
 	</script>

@@ -32,9 +32,10 @@ departments.unshift('all jobs');
 		departmentItems.forEach((departmentItem) => {
 			if (!departmentItem) return;
 
-			console.log(departmentItem);
 			departmentItem.classList.remove('border-blue-500');
 			departmentItem.classList.remove('dark:border-blue-500');
+			console.log(departmentItem.innerHTML.trim());
+			console.log(departmentUrl);
 			if (
 				departmentItem.innerHTML.trim() === departmentUrl ||
 				(departmentItem.innerHTML.trim() === 'all jobs' && departmentUrl === '')

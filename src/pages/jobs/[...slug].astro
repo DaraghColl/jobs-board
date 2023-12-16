@@ -18,10 +18,12 @@ const job = Astro.props;
 const { data } = job;
 const { title, salary, location, pubDate } = data;
 
+const pageTitle = `jobs - ${title}`;
+
 const { Content } = await job.render();
 ---
 
-<MainLayout title=`{your company} jobs - ${title}`>
+<MainLayout title={pageTitle}>
 	<h1 class="mb-5 text-3xl font-semibold tracking-wide text-slate-800 dark:text-white">
 		{title}
 	</h1>

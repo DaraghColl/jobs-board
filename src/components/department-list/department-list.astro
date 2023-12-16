@@ -13,7 +13,7 @@ departments.unshift('all jobs');
 		departments.map((department) => (
 			<a
 				href={department === 'all jobs' ? '/' : `/jobs/department/${department}`}
-				class="cursor-pointer rounded-md border-2 border-slate-800 p-2 text-center text-sm font-semibold tracking-wider text-slate-800"
+				class="cursor-pointer rounded-md border-2 border-slate-800 p-2 text-center text-sm font-semibold tracking-wider text-slate-800 dark:border-white dark:text-white"
 			>
 				{department}
 			</a>

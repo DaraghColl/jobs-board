@@ -21,7 +21,9 @@ const departments = [...new Set(jobs.map((job) => job.data.department).flat())];
 ---
 
 <MainLayout title=`{your company} jobs - ${department}`>
-	<h1 class="mb-10 text-2xl font-semibold tracking-wide">Job Openings in {department}</h1>
+	<h1 class="mb-10 text-2xl font-semibold tracking-wide dark:text-white">
+		Job Openings in {department}
+	</h1>
 	<DepartmentList departments={departments} />
 	<div class="grid grid-cols-1 gap-10 md:grid-cols-1">
 		{filteredJobsByDepartment.map((job) => <JobCard job={job} />)}

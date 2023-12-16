@@ -6,40 +6,40 @@ interface Props {
 const { jobReference } = Astro.props;
 ---
 
-<div class="mx-auto my-20 max-w-sm">
+<div class="mx-auto my-20 max-w-sm text-slate-800 dark:text-white">
 	<h3 class="mb-5 text-2xl font-semibold tracking-wide">Apply for this role</h3>
 	<form class="flex flex-col gap-4">
 		<div class="flex flex-col gap-2">
-			<label for="name" class="text-sm text-slate-800">name</label>
+			<label for="name" class="text-sm">name</label>
 			<input
 				type="text"
 				name="name"
 				id="name"
 				required
 				autocomplete="off"
-				class="rounded-md border-2 bg-white p-2 focus:outline-none"
+				class="rounded-md border-2 bg-white p-2 focus:outline-none dark:bg-slate-900"
 			/>
 		</div>
 
 		<div class="flex flex-col gap-2">
-			<label for="email" class="text-sm text-slate-800">email</label>
+			<label for="email" class="text-sm">email</label>
 			<input
 				type="email"
 				name="email"
 				id="name"
 				required
 				autocomplete="off"
-				class="rounded-md border-2 bg-white p-2 focus:outline-none"
+				class="rounded-md border-2 bg-white p-2 focus:outline-none dark:bg-slate-900"
 			/>
 		</div>
 
 		<div class="flex flex-col gap-2">
-			<label for="file-input" class="text-sm text-slate-800">resume</label>
+			<label for="file-input" class="text-sm">resume</label>
 			<input
 				type="file"
 				name="file-input"
 				id="file-input"
-				class="block w-full rounded-md border-2 bg-white text-sm shadow-sm file:me-4 file:cursor-pointer file:border-0 file:bg-blue-500 file:px-4 file:py-3 file:text-white"
+				class="block w-full rounded-md border-2 bg-white text-sm shadow-sm file:me-4 file:cursor-pointer file:border-0 file:bg-blue-500 file:px-4 file:py-3 file:text-white dark:bg-slate-900"
 			/>
 		</div>
 

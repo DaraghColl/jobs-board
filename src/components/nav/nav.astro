@@ -1,4 +1,10 @@
-<nav class="mb-10 flex justify-between py-2 font-semibold">
+---
+import ThemeToggle from '../theme-toggle/theme-toggle.astro';
+---
+
+<nav
+	class="sticky top-0 mb-10 flex justify-between bg-slate-50 py-5 font-semibold text-slate-800 dark:bg-slate-900 dark:text-white"
+>
 	<a href="/" class="flex gap-2">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -16,4 +22,5 @@
 		</svg>
 		<span>your company name</span>
 	</a>
+	<ThemeToggle />
 </nav>

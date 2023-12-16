@@ -24,12 +24,15 @@ departments.unshift('all jobs');
 
 <script>
 	document.addEventListener('astro:page-load', () => {
+		console.log('load');
 		const { pathname } = window.location;
 		const departmentUrl = pathname.slice(pathname.lastIndexOf('/') + 1);
 		const departmentItems = document.querySelectorAll('.department-item');
 
 		departmentItems.forEach((departmentItem) => {
 			if (!departmentItem) return;
+
+			console.log(departmentItem);
 			departmentItem.classList.remove('border-blue-500');
 			departmentItem.classList.remove('dark:border-blue-500');
 			if (

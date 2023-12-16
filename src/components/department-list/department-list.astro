@@ -13,10 +13,32 @@ departments.unshift('all jobs');
 		departments.map((department) => (
 			<a
 				href={department === 'all jobs' ? '/' : `/jobs/department/${department}`}
-				class="cursor-pointer rounded-md border-2 border-slate-800 p-2 text-center text-sm font-semibold tracking-wider text-slate-800 dark:border-white dark:text-white"
+				class="department-item cursor-pointer rounded-md border-2 border-slate-800 p-2 text-center text-sm font-semibold tracking-wider text-slate-800 dark:border-white dark:text-white"
+				transition:persist
 			>
 				{department}
 			</a>
 		))
 	}
 </div>
+
+<script>
+	document.addEventListener('astro:page-load', () => {
+		const { pathname } = window.location;
+		const departmentUrl = pathname.slice(pathname.lastIndexOf('/') + 1);
+		const departmentItems = document.querySelectorAll('.department-item');
+
+		departmentItems.forEach((departmentItem) => {
+			if (!departmentItem) return;
+			departmentItem.classList.remove('border-blue-500');
+			departmentItem.classList.remove('dark:border-blue-500');
+			if (
+				departmentItem.innerHTML.trim() === departmentUrl ||
+				(departmentItem.innerHTML.trim() === 'all jobs' && departmentUrl === '')
+			) {
+				departmentItem.classList.add('border-blue-500');
+				departmentItem.classList.add('dark:border-blue-500');
+			}
+		});
+	});
+</script>

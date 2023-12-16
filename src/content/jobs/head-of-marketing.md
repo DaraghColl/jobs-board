@@ -2,7 +2,7 @@
 title: Head of Marketing
 salary: 100,000
 location: remote
-pubDate: '2021-01-02'
+pubDate: '2023-14-11'
 summary: Are you a marketing mastermind? A visionary strategist with a Midas touch for brand storytelling? Do you thrive in the fast-paced world of digital campaigns and data-driven insights? Then step into the spotlight as our Head of Marketing and lead the charge to propel our brand to new heights.
 department: marketing
 ---

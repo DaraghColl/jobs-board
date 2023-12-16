@@ -2,7 +2,7 @@
 title: Data Engineer
 salary: 110,000
 location: remote
-pubDate: '2021-07-08'
+pubDate: '2023-10-11'
 summary: Are you a data maestro ready to orchestrate the flow of information and unlock hidden insights? We're searching for a passionate and experienced Senior Data Engineer to join our fast-paced team and drive our data-driven initiatives forward.
 department: engineering
 ---

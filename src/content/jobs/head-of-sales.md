@@ -2,7 +2,7 @@
 title: Head of Sales
 salary: 150,000
 location: remote
-pubDate: '2021-07-08'
+pubDate: '2023-07-08'
 summary: Do you thrive in the high-octane world of sales? Are you a born leader with an insatiable drive to exceed expectations? Then step into the spotlight as our Head of Sales and lead our team to record-breaking revenue!
 department: sales
 ---

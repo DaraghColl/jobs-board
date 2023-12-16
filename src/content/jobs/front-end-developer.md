@@ -2,8 +2,8 @@
 title: Front End Developer
 salary: 160,000
 location: remote
-pubDate: '2021-07-08'
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo necessitatibus asperiores minima neque suscipit et iusto distinctio dolorem quam rerum, aperiam mollitia veniam soluta labore commodi, repellendus cumque voluptate quos.
+pubDate: '2023-15-12'
+summary: We are on the hunt for a Senior Frontend Developer who thrives in the React ecosystem and loves building beautiful, high-performing user interfaces. At [Company Name], we're passionate about [Company Mission], and we believe the user experience is key to achieving it. You'll play a pivotal role in crafting intuitive and engaging interfaces that drive user adoption and delight.
 department: engineering
 ---
 

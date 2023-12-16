@@ -2,7 +2,7 @@
 title: Data Engineer
 salary: 110,000
 location: remote
-pubDate: '2021-07-08'
+pubDate: '2023-12-12'
 summary: Do you thrive in the face of complex challenges? Are you passionate about building and maintaining impenetrable defenses against cyber threats? Then join our team as a Senior Security Engineer and become a pillar of our security posture!
 department: engineering
 ---

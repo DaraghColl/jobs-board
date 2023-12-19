@@ -15,6 +15,7 @@ departments.unshift('all jobs');
 				href={department === 'all jobs' ? '/' : `/jobs/department/${department}`}
 				class="department-item cursor-pointer rounded-md border-2 p-2 text-center text-sm font-semibold tracking-wider text-slate-800 dark:text-white"
 				transition:persist
+				data-cy="department_filter_link"
 			>
 				{department}
 			</a>
